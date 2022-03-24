@@ -14,8 +14,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         val listaPersonaje = ArrayList<Personaje>()
 
-        listaPersonaje.add(Personaje("Bender", ""))
-        listaPersonaje.add(Personaje("Homero", ""))
+        listaPersonaje.add(Personaje("Bender", "https://img2.freepng.es/20171220/ake/futurama-bender-png-5a3a03f952e1b6.81399659151375154533958088.jpg"))
+        listaPersonaje.add(Personaje("Homero", "https://img2.freepng.es/20181204/vo/kisspng-higher-maths-clip-art-mathematics-yahoo-answers-5c064d3aa59ad1.3031538515439168586783.jpg"))
         listaPersonaje.add(Personaje("bob", ""))
         listaPersonaje.add(Personaje("spiderman", ""))
         listaPersonaje.add(Personaje("miky", ""))
